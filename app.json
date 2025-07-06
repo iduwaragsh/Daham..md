@@ -1,31 +1,25 @@
 {
-  "name": "LAKIYA-D",
-  "description": "LAzKIYA-MD Multi device Whatsapp Bot.",
-  "logo": "https://files.catbox.moe/mlg7hf.png",
-  "keywords": ["bot"],
+  "name": "DANUWA-MD",
+  "description": "Javascript WhatsApp bot made by Danuka Dissanayake",
+  "logo": "https://github.com/DANUWA-MD/DANUWA-MD/blob/main/images/DANUWA-MD.png?raw=true",
+  "keywords": ["DANUWA-MD"],
   "success_url": "/",
 
   "env": {
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true
+    },  
+
+    "ALIVE_IMG": {
+      "description": "Put your alive img here.",
+      "required": true
     },
- "NEWS_SEND_JID": {
-      "description": "Put the jid channel or group",
-      "required": false
-    },
-"AUTO_NEWS_SENDER": {
-      "description": "true or false",
-      "required": false
-    } ,
-"TIKTOK_SEND_JID": {
-      "description": "Put the jid channel or group",
-      "required": false
-    } ,
-    "AUTO_TIKTOK_SENDER": {
-      "description": "true or false",
-      "required": false
-    } 
+    
+    "ALIVE_MSG": {
+      "description": "Put your alive msg here.",
+      "required": true
+    }   
 },
 
      "buildpacks": [
